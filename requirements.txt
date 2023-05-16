@@ -1,0 +1,12 @@
+We need pip installer along with python environment to install the following required libraries.
+
+--- For the CRF model
+
+!pip install sklearn_crfsuite
+!pip install git+https://www.github.com/keras-team/keras-contrib.git
+!pip install seqeval
+!pip install --force-reinstall --no-dependencies "scikit-learn==0.24.2"
+
+--- For the BERT model
+
+!pip install transformers datasets tokenizers seqeval -q
