@@ -1,11 +1,8 @@
 import pandas as pd
 import numpy as np
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.feature_extraction import DictVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn_crfsuite import CRF
-from sklearn_crfsuite.metrics import flat_classification_report, flat_f1_score
+from sklearn_crfsuite.metrics import flat_classification_report
 from seqeval.metrics import precision_score, recall_score, f1_score, classification_report, accuracy_score
 
 
